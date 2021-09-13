@@ -2,8 +2,8 @@ function min(first, second) {
   let min;
   if (first < second) {
     min = first;
-  } else {
-    first > second;
+  }
+  if (first > second) {
     min = second;
   }
   return min;

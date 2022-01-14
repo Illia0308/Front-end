@@ -9,10 +9,8 @@
 // Масив випадкових чисел
 
 const getRandomNumbers = (length, from, to) => {
-  let arr = [];
-  arr.length = length;
-  arr.push(Math.round(Math.random() * (to - from)) + from);
-
+  let arr = new Array(length);
+  for (let i = 0; i <= length; ) Math.round(Math.random() * (to - from)) + from;
   return arr;
 };
 
@@ -22,17 +20,13 @@ getRandomNumbers(5, 1.4, 3.22); // ==> [3, 2, 2, 2, 2]
 getRandomNumbers(5, 1.4, 3.22); // ==> [3, 3, 2, 3, 2]
 
 //Округлення числа
-// const superRound = (num, prec) =>{
-// prec
-//     [
-//   Math.floor(num),
-//   Math.trunc((num * prec) / prec),
-//   Math.ceil((num * prec) / prec),
-//   Math.round((num * prec) / prec),
-//   num.toFixed(prec),
-// ]
-// };
+const superRound = (num, prec) => [
+  Math.floor(num * Math.pow(10, prec)) / Math.pow(10, prec),
+  Math.trunc(num * Math.pow(10, prec)) / Math.pow(10, prec),
+  Math.ceil(num * Math.pow(10, prec)) / Math.pow(10, prec),
+  Math.round(num * Math.pow(10, prec)) / Math.pow(10, prec),
+  Number(num.toFixed(prec)),
+];
 
-// examples
-// console.log(superRound(11.12556, 2)); // ==> [11.12, 11.12, 11.13, 11.13, 11.13]
-// superRound(6.11, 3); // ==> [6.11, 6.11, 6.11, 6.11, 6.11]
+console.log(superRound(11.12556, 2)); // ==> [11.12, 11.12, 11.13, 11.13, 11.13]
+superRound(6.11, 3); // ==> [6.11, 6.11, 6.11, 6.11, 6.11]

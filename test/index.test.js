@@ -11,6 +11,6 @@ it("Should keep odd numbers", () => {
 });
 
 it("get sum of numbers", () => {
-  const result = getSum([1, 5]);
+  const result = getSum(1, 5);
   expect(result).toEqual(6);
 });

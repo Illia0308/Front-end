@@ -1,5 +1,5 @@
 const getMinSquaredNumbers = (arr) => {
-  if (!Array.isArray(arr) && arr.length === 0) {
+  if (!Array.isArray(arr) || arr.length === 0) {
     return null;
   } else {
     let abs = arr.map((el) => Math.abs(el));
@@ -8,4 +8,4 @@ const getMinSquaredNumbers = (arr) => {
     return squer;
   }
 };
-console.log(getMinSquaredNumbers([-777, 3, -2, 6, 45, -20]));
+console.log(getMinSquaredNumbers([]));

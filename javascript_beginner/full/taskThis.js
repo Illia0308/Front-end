@@ -89,3 +89,10 @@ transaction.printTransaction.call(anotherTransaction);
 export const printSpecialTransaction =
   transaction.printTransaction.bind(anotherTransaction);
 printSpecialTransaction();
+
+pseudoArray = {
+  0: "tom",
+  1: "JAke",
+  2: "Frank",
+};
+console.log(pseudoArray[1]);

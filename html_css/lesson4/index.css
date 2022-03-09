@@ -18,7 +18,7 @@ h4 {
 article.new {
   font-size: 24px;
 }
-.new {
+li.new {
   background-color: red;
 }
 .new.posted-today {

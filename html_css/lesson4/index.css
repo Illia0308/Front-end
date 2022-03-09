@@ -1,7 +1,8 @@
 [target="_blank"] {
   color: green;
 }
-li {
+ol,
+ul {
   background-color: yellow;
 }
 header,
@@ -17,7 +18,7 @@ h4 {
 article.new {
   font-size: 24px;
 }
-li.new {
+.new {
   background-color: red;
 }
 .new.posted-today {

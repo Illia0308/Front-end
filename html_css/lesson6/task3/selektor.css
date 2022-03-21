@@ -7,13 +7,13 @@ img[src$=".jpg"] {
 li[data-description~="even"] {
   background-color: grey;
 }
-[data-description|="even"] {
+li[data-description^="even"] {
   font-size: 24px;
 }
 [href^="https://"]
 {
   color: green;
 }
-span[lang|="en"] {
+span[lang="en"] {
   font-size: 28px;
 }

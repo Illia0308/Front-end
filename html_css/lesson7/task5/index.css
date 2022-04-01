@@ -10,11 +10,14 @@ h2 {
 li {
   color: blue;
 }
+p {
+  background-color: yellow;
+}
 input {
   border: 3px solid red;
 }
 .hello {
-  background: white;
+  background-color: white;
 }
 #special {
   border: 2px solid blue;
@@ -25,10 +28,10 @@ div p {
 input[type="text"] {
   background-color: grey;
 }
-div:nth-child(3) {
+body:nth-child(3) {
   background-color: yellow;
 }
-div:nth-child(3) p:nth-child(2) {
+body:nth-child(3) div:nth-child(2) {
   border: 2px solid white;
 }
 em {

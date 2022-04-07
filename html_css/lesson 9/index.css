@@ -1,0 +1,38 @@
+.separator {
+  height: 50px;
+  background-color: aqua;
+}
+.child,
+.parent {
+  border: 2px solid black;
+  padding: 16px;
+}
+.parent {
+  width: 300px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+.child {
+  background-color: yellow;
+  position: absolute;
+  right: 20px;
+}
+.static-parent {
+  position: static;
+}
+.relative-parent {
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+.absolute-parent {
+  position: absolute;
+}
+.fixed-parent {
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+body {
+  height: 50000px;
+}

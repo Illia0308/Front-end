@@ -11,7 +11,8 @@ header {
 }
 .article {
   flex-basis: 300px;
-  flex-grow: 2;
+  flex-grow: 1;
+  flex-shrink: 0;
   margin: 8px;
   padding: 16px;
   background-color: bisque;

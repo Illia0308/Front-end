@@ -1,0 +1,15 @@
+body {
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+.article {
+  display: block;
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  flex-basis: 300px;
+}

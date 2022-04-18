@@ -1,8 +1,8 @@
 .text {
-  position: fixed;
-  box-sizing: border-box;
+  position: relative;
   margin: 16px;
   border-bottom: 1px dotted black;
+  width: fit-content;
 }
 .tooltip {
   display: flex;
@@ -14,5 +14,8 @@
 }
 .text:hover .tooltip {
   cursor: pointer;
-  display: block;
+  position: absolute;
+  display: inline;
+  bottom: -40px;
+  left: 0;
 }

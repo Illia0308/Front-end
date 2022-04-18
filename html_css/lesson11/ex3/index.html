@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .dropdown {
+        margin: 16px;
+        background-color: darkgreen;
+        color: white;
+        display: inline-block;
+        padding: 8px;
+        border-radius: 4px;
+      }
+      .dropdown_list {
+        position: absolute;
+        top: 59px;
+        color: black;
+        list-style-type: none;
+        background-color: wheat;
+        padding: 0;
+        margin: 0;
+        display: none;
+        min-width: 120px;
+      }
+      .dropdown_list-item {
+        padding: 8px;
+      }
+      .dropdown:hover .dropdown_list {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dropdown">
+      <span class="dropdown_text">Hover me</span>
+      <ul class="dropdown_list">
+        <li class="dropdown_list-item">Item 1</li>
+        <li class="dropdown_list-item">Item2</li>
+        <li class="dropdown_list-item">Item 3</li>
+      </ul>
+    </div>
+  </body>
+</html>

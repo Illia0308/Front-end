@@ -13,6 +13,6 @@
   display: none;
 }
 .text:hover .tooltip {
-  display: block;
   cursor: pointer;
+  display: block;
 }

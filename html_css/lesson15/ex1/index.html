@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
+      crossorigin="anonymous"
+    />
+    <style>
+      .main-image {
+        margin: 100px;
+        display: block;
+        width: 600px;
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      .gallery {
+        display: flex;
+      }
+      .card {
+        margin: 16px;
+        box-shadow: 0px 5px 30px -9px rgba(0, 0, 0, 0.75);
+      }
+      .opacity-filter {
+        filter: opacity(50%);
+      }
+      .blur-filter {
+        filter: blur(4px);
+      }
+      .invert-filter {
+        filter: invert(100%);
+      }
+      .caption {
+        line-height: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img class="main-image" src="BB 2.jpg" alt="Bielsko-Biala" />
+    </div>
+    <div class="gallery">
+      <figure class="card">
+        <img
+          class="opacity-filter"
+          src="QcFRoyqe9sc.jpg"
+          alt="Opacity filter"
+        />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+      <figure class="card">
+        <img class="blur-filter" src="QcFRoyqe9sc.jpg" alt="blur-filter" />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+      <figure class="card">
+        <img class="invert-filter" src="QcFRoyqe9sc.jpg" alt="invert-filter" />
+        <figcaption class="caption">Opacity</figcaption>
+      </figure>
+    </div>
+  </body>
+</html>

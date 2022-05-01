@@ -1,5 +1,6 @@
 .image-container {
   display: flex;
+  position: relative;
 }
 .image {
   position: relative;

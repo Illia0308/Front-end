@@ -1,7 +1,9 @@
+.image-container {
+  display: flex;
+}
 .image {
   position: relative;
   max-width: 100%;
-  top: calc(50vh - 160px);
   left: calc(50vw - 250px);
 }
 .image-button {

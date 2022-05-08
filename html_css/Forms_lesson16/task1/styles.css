@@ -33,6 +33,9 @@ body {
   padding: 4px;
   outline: none;
 }
+.form-input:required:invalid {
+  border: 3px #ff0000;
+}
 .form-label {
   margin-bottom: 4px;
 }

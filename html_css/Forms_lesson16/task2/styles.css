@@ -1,3 +1,11 @@
+.list {
+  display: block;
+  margin: 8px;
+  box-sizing: border-box;
+}
 .form {
-  display: flex;
+  margin: 32px;
+}
+.language {
+  display: inline;
 }

@@ -15,8 +15,69 @@
   </head>
   <body>
     <div class="form">
-      <input type="text" value="HTML" disabled />
-      <input type="checkbox" />
+      <input
+        class="list"
+        type="text"
+        name="primaryLanguage"
+        value="HTML"
+        disabled
+      />
+      <input class="list" type="checkbox" name="agree" />
+      <input class="list" type="checkbox" name="like" checked />
+      <input class="list" type="color" name="favoriteColor" #ff7f50 />
+      <input class="list" type="date" name="birthDate" value="2021-01-02" />
+      <input
+        class="list"
+        type="datetime-local"
+        name="birthTime"
+        value="2024-10-04T13:02"
+      />
+      <input
+        class="list"
+        type="email"
+        name="email"
+        placeholder="example@damain.com"
+      />
+      <input class="list" type="file" name="avatar" />
+      <input class="list" type="month" name="startLearning" value="2020-01" />
+      <input class="list" type="number" name="favouriteNumber" value="17" />
+      <input
+        class="list"
+        type="textarea"
+        name="story"
+        aria-rowcount="5"
+        aria-colcount="30"
+        placeholder="A long time ago..."
+      />
+      <input class="list" type="password" value="secret" />
+
+      <input class="language list" type="radio" id="HTML" /><label for="HTML"
+        >HTML</label
+      >
+      <input class="language list" type="radio" id="CSS" /><label for="CSS"
+        >CSS</label
+      >
+      <input class="language list" type="radio" id="JavaScript" /><label
+        for="JavaScript"
+        >JavaScript</label
+      >
+      <input class="list" type="range" name="learningProgress" value="30" />
+      <select class="list" name="Framework" id="frame">
+        <option value="react">React</option>
+        <option value="jquery">jQuery</option>
+        <option value="bootstrap">Bootstrap</option>
+      </select>
+      <input class="list" type="search" placeholder="Type first letters..." />
+      <input class="list" type="time" name="lunchEnd" value="14:01" />
+      <input
+        class="list"
+        type="url"
+        name="website"
+        placeholder="https://website.com"
+        required
+      />
+      <input class="list" type="week" name="birthWeek" value="2021-W51" />
+      <button class="list">Save</button>
     </div>
   </body>
 </html>

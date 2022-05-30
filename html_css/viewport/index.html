@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      .main-content {
+        display: flex;
+        min-height: 100vh;
+      }
+      .gallery {
+        width: 80%;
+        background-color: coral;
+        display: flex;
+      }
+      .ideas {
+        display: flex;
+        width: 20%;
+        background-color: aqua;
+      }
+      .main-image {
+        width: 100%;
+        margin: auto;
+        box-shadow: 7px -6px 24px 0px rgba(66, 68, 90, 1);
+      }
+      .idea {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 700;
+        padding: 4px;
+        color: white;
+        margin: auto;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main-content">
+      <section class="gallery">
+        <img
+          class="main-image"
+          src="Icecat1-300x300.svg.png"
+          alt="tree on the land"
+        />
+      </section>
+      <aside class="ideas">
+        <span class="idea"> keep calm </span>
+      </aside>
+    </main>
+  </body>
+</html>

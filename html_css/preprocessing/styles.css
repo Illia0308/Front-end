@@ -1,0 +1,11 @@
+.nav-list {
+  background-color: #fff;
+}
+.nav-list__item {
+  color: blue;
+}
+.nav-list__item_selected {
+  color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */

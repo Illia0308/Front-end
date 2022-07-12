@@ -1,0 +1,11 @@
+.nav-list {
+  background-color: #fff;
+
+  &__item {
+    color: blue;
+
+    &_selected {
+      color: red;
+    }
+  }
+}

@@ -38,3 +38,21 @@ console.log(flatArray(initArray)); // -----> [1,2,3,4,5,6]
 // 3: 3,3 ---> 6
 // 4: 6,4 ----> 10
 // 5: 10,5----> 15
+
+// const people = [
+//   { name: "Illia", budget: 5500 },
+//   { name: "Sasha", budget: 3500 },
+//   { name: "Ania", budget: 6300 },
+// ];
+
+// const allBudget = people
+//   .filter((person) => person.budget > 4000)
+//   .reduce((acc, person) => {
+//     acc += person.budget;
+//     return acc;
+//   }, 0);
+// console.log(allBudget);
+
+const text = "Привіт як справи";
+const reverseText = text.split("").reverse().join("");
+console.log(reverseText);

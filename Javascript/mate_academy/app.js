@@ -401,9 +401,41 @@ function scrollingText(word) {
   for (let i = 0; i < word.length - 1; i++) {
     let index = arr[i];
     let cut = index.slice(1, index.length) + index[0];
-    console.log(cut);
     arr.push(cut);
   }
   return arr;
 }
 scrollingText("robot");
+
+function isSpecialNumber(n) {
+  const string = String(n);
+  let num = "";
+  for (let i = 0; i <= string.length; i++) {
+    if (string[i] <= 5) {
+      num += string[i];
+    }
+  }
+  if (+num === n) {
+    return "Special!!";
+  } else {
+    return "NOT!!";
+  }
+}
+
+console.log(isSpecialNumber(25));
+
+function isTidy(n) {
+  const string = String(n);
+  for (let i = 0; i <= string.length; i++) {
+    if (string.length === 1) {
+      return true;
+    }
+    if (string[i] < string[i + 1]) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
+
+console.log(isTidy(21));

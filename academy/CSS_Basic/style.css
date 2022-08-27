@@ -1,21 +1,38 @@
-span {
-  font-weight: bold;
-  font-style: italic;
-  text-decoration: line-through;
-  color: #845;
-  cursor: pointer;
-  background-color: chartreuse;
-  text-transform: uppercase;
-  font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-  white-space: nowrap;
-}
-html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
+body {
+  margin: 0;
+  font-family: sans-serif;
 }
 
-.title {
-  font-size: 2rem;
-  margin: 0 0.5em;
+.header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.logo {
+  display: inline-block;
+  margin-right: 40px;
+  border: 1px solid #ccc;
+  padding: 3px;
+  color: #fff;
+}
+
+.nav {
+  display: inline-block;
+}
+.nav__item {
+  display: inline-block;
+}
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav__link {
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 5px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #666;
 }
